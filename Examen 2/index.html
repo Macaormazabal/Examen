@@ -1,73 +1,81 @@
 <!doctype html>
-<html>
+<html <html lang="es" dir="ltr">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, user-scalable=no,initial-scale=1.0>"
+<meta name="viewport" content="width=device-width, user-scalable=no,initial-scale=1.0">
 <link href="https://fonts.google.com/specimen/Dancing+Script" rel="stylesheet">
 <link rel="stylesheet" href="CSS/estilos.css">
+<link rel="stylesheet" href="CSS/estilos2.css">
 <title>Comenzando con la fotografía</title>
 </head>
 
-<body>
+<body id="Contenido">
 	
-<div class="contenido">
-	<header>
+	<div id="Encabezado">
+	<header class="Titulo">
 			<h1>Comenzando con la fotografía</h1>
-			<nav id="navprincipal">
-				<ul>
-					<li><a href="index.html" class="visitada">Inicio</a></li>
-					<li><a href="paisajes.html">Paisajes</a></li>
-					<li><a href="retratos.html">Retratos</a></li>
-				
-				</ul>
-		
+		</header>
+	
+		<nav class="Menu">
+			<a href="index.html" title="Ir a Inicio" class="active">Inicio</a>
+			<a href="paisajes.html" title="Ir a Paisajes">Paisajes</a>
+			<a href="retratos.html" title="Ir a Retratos">Retratos</a>
 		</nav>
+	</div>
 	
-	</header>
+	<div id="Cuerpo">
+		<section id="Img_Central">
+			<img src="img/Viaje.jpg" alt="viaje" title="Viaje.jpg" width="100%">
+		</section>
 	
-	<section id="imgcentral">
-	 <img src="img/img-central.jpg" id="central" class="sombra">
-	</section>
-	
-	<section id="imginferior">
-		<div>
-			<a href="paisajes.html">
-			<img src="img/imagen-inferior.jpg" id="paisaje" class="sombra">
-			<span><strong>Paisajes</strong></span>
-			</a>
-		</div>
-		<div>
-			<a href="retratos.html">
-			<img src="img/retratos.jpg" id="Retratos" class="sombra">
-			</a>
-		</div>
-	</section>
-	<footer>
-		<div class="footerbox">
-				<h2>Contacto</h2>
-				<p>
-					macaormazabal@gmail.com<br>
-					Concon, Viña del Mar Chile<br>
-					+56 996409660
+		<section id="Img_Secundaria">
+		 <div class="Img_Izquierda">
+			<h2><a href="paisajes.html" title="Ir a paisajes">
+			<img src="img/Paisaje.jpg" alt="Paisaje" title="Paisaje.jpg" width="100%">
+			Paisajes
+			</a></h2>
+			</div>
 			
-			</p>
-		</div>
-		<div class="footerbox">
-			<h2>Redes Sociales</h2>
-			<img src="img/face-ico.png">
-			<img src="img/twi-ico.png">
-			<img src="img/insta-ico.png">
-		
-		</div>
-		<div class="footerbox">
-			<h2>Derechos</h2>
-			<p>
-				Macarena Ormazábal<br>
-				<span>&copy; Todos los derechos Reservados - 2019</span>
-			</p>
-		</div>
+			<div class="Img_Derecha">
+				<h2><a href="retratos.html" title="Ir a retratos">
+				<img src="img/retrato.jpg" alt="Retrato" title="retrato.jpg" width="100%">
+				Retratos
+					</a></h2>
+			</div>
+		</section>
+	</div>
 	
-	</footer>
-	</div>	
-</body>
+		<footer id="Pie">
+			<div class="Contactos">
+				<h2>Contactos</h2>
+				<p><b>Email:</b><br/><a href="mailto:comenzandoconlafotografia@gmail.com?subject=feedback" target="_blank" title="Enviar email">comenzandoconlafotografia@gmail.com</a></p>
+				
+				<p><b>Dirección:</b><br/><a href="https://goo.gl/maps/JeRjhfodhNBWWkKk8" target="_blank" title="abrir en maps">concon, Viña del Mar, Chile</a></p>
+				<p><b>Teléfono</b><br/><a href="tel:+56996409660" title="llamar">+56996409660</a></p>
+			</div>
+			<div class="Terminos">
+			<h2>Términos y condiciones</h2>
+			<p>Estos son nuestros términos y condiciones</p>
+			</div>
+			<div class="Redes_Sociales">
+			<h2>Nuestras Redes</h2>
+			<p><b>Comparte en nuestras Redes</b></p>
+			<a href="https://facebook.com" target="_blank" title="Visitar Perfil"><img src="img/face-ico.png" alt="Facebook" title="Facebook" width="20px">Comenzando con la Fotografía</a> <br/>
+
+			<a href="https://twitter.com" target="_blank" title="Visitar Perfil"><img src="img/twi-ico.png" alt="Twitter" title="Twitter" width="20px">Comenzando con la Fotografía</a> <br/>
+
+			<a href="https://instagram.com" target="_blank" title="Visitar Perfil"><img src="img/insta-ico.png" alt="Instagram" title="Instagram" width="20px">Comenzando con la Fotografía</a> <br/>
+
+			</div>
+
+			<div class="Derechos">
+			<h2>Derechos</h2>
+			<p>Macarena Ormazábal</p>
+			<p><b>&copy;</b> CopyRight 2019</p>
+			</div>
+		</footer>
+	</body>
 </html>
+	
+	
+	
